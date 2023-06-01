@@ -1,0 +1,16 @@
+name: AnvilColors
+version: '${project.version}'
+main: com.github.gavvydizzle.anvilcolors.AnvilColors
+api-version: 1.19
+depend: [ServerUtils]
+commands:
+  anvilcolor:
+    aliases: [anvilcolors]
+    description: Player commands for AntiDrop
+    permission: anvilcolors.gui
+    permission-message: Insufficient permission
+  anvilcoloradmin:
+    aliases: [anvilcolorsadmin]
+    description: Admin commands for AntiDrop
+    permission: anvilcolors.admin
+    permission-message: Insufficient permission
