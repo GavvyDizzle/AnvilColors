@@ -1,0 +1,294 @@
+menu:
+  name: Anvil Colors
+  rows: 4
+  filler: gray
+items:
+  '1':
+    slot: 22
+    material: BOOK
+    name: '&eAnvil Coloring Help'
+    lore:
+      - ''
+      - '&7Anvil colors and styles can be applied'
+      - '&7when renaming an item inside of an anvil.'
+      - '&7When namine the item, use the & symbol followed'
+      - '&7by the color code to color the following text.'
+      - ''
+      - '&7Notes:'
+      - '&7- You can merge colors/styles by placing the style after the color'
+      - '&7- You can remove the current color/style with ''r'' or by'
+      - '&7   using another color code'
+colors:
+  '0':
+    slot: 0
+    code: '&0'
+    permission: anvilcolors.color.0
+    item:
+      customModelID: 0
+      material: BLACK_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&8Black Anvil Color'
+      lockedName: '&c&lLocked: &8Black Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 0'
+        - '&7when naming items in an anvil'
+  '1':
+    slot: 1
+    code: '&1'
+    permission: anvilcolors.color.1
+    item:
+      customModelID: 0
+      material: BLUE_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&1Dark Blue Anvil Color'
+      lockedName: '&c&lLocked: &1Dark Blue Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 1'
+        - '&7when naming items in an anvil'
+  '2':
+    slot: 2
+    code: '&2'
+    permission: anvilcolors.color.2
+    item:
+      customModelID: 0
+      material: GREEN_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&2Dark Green Anvil Color'
+      lockedName: '&c&lLocked: &2Dark GreenAnvil Color'
+      lore:
+        - '&7Allows you to use the color code 2'
+        - '&7when naming items in an anvil'
+  '3':
+    slot: 3
+    code: '&3'
+    permission: anvilcolors.color.3
+    item:
+      customModelID: 0
+      material: CYAN_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&3Dark Aqua Anvil Color'
+      lockedName: '&c&lLocked: &3Dark Aqua Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 3'
+        - '&7when naming items in an anvil'
+  '4':
+    slot: 5
+    code: '&4'
+    permission: anvilcolors.color.4
+    item:
+      customModelID: 0
+      material: RED_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&4Dark Red Anvil Color'
+      lockedName: '&c&lLocked: &4Dark Red Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 4'
+        - '&7when naming items in an anvil'
+  '5':
+    slot: 6
+    code: '&5'
+    permission: anvilcolors.color.5
+    item:
+      customModelID: 0
+      material: PURPLE_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&5Dark Purple Anvil Color'
+      lockedName: '&c&lLocked: &5Dark Purple Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 5'
+        - '&7when naming items in an anvil'
+  '6':
+    slot: 7
+    code: '&6'
+    permission: anvilcolors.color.6
+    item:
+      customModelID: 0
+      material: ORANGE_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&6Gold Anvil Color'
+      lockedName: '&c&lLocked: &6Gold Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 6'
+        - '&7when naming items in an anvil'
+  '7':
+    slot: 8
+    code: '&7'
+    permission: anvilcolors.color.7
+    item:
+      customModelID: 0
+      material: LIGHT_GRAY_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7Gray Anvil Color'
+      lockedName: '&c&lLocked: &7Gray Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 7'
+        - '&7when naming items in an anvil'
+  '8':
+    slot: 9
+    code: '&8'
+    permission: anvilcolors.color.8
+    item:
+      customModelID: 0
+      material: GRAY_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&8Dark Gray Anvil Color'
+      lockedName: '&c&lLocked: &8Dark Gray Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 8'
+        - '&7when naming items in an anvil'
+  '9':
+    slot: 10
+    code: '&9'
+    permission: anvilcolors.color.9
+    item:
+      customModelID: 0
+      material: BLUE_CONCRETE_POWDER
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&9Blue Anvil Color'
+      lockedName: '&c&lLocked: &9Blue Anvil Color'
+      lore:
+        - '&7Allows you to use the color code 9'
+        - '&7when naming items in an anvil'
+  a:
+    slot: 11
+    code: '&a'
+    permission: anvilcolors.color.a
+    item:
+      customModelID: 0
+      material: LIME_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&aGreen Anvil Color'
+      lockedName: '&c&lLocked: &aGreen Anvil Color'
+      lore:
+        - '&7Allows you to use the color code a'
+        - '&7when naming items in an anvil'
+  b:
+    slot: 12
+    code: '&b'
+    permission: anvilcolors.color.b
+    item:
+      customModelID: 0
+      material: CYAN_CONCRETE_POWDER
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&bAqua Anvil Color'
+      lockedName: '&c&lLocked: &bAqua Anvil Color'
+      lore:
+        - '&7Allows you to use the color code b'
+        - '&7when naming items in an anvil'
+  c:
+    slot: 14
+    code: '&c'
+    permission: anvilcolors.color.c
+    item:
+      customModelID: 0
+      material: RED_CONCRETE_POWDER
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&cRed Anvil Color'
+      lockedName: '&c&lLocked: &cRed Anvil Color'
+      lore:
+        - '&7Allows you to use the color code c'
+        - '&7when naming items in an anvil'
+  d:
+    slot: 15
+    code: '&d'
+    permission: anvilcolors.color.d
+    item:
+      customModelID: 0
+      material: PURPLE_CONCRETE_POWDER
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&dLight Purple Anvil Color'
+      lockedName: '&c&lLocked: &dLight Purple Anvil Color'
+      lore:
+        - '&7Allows you to use the color code d'
+        - '&7when naming items in an anvil'
+  e:
+    slot: 16
+    code: '&e'
+    permission: anvilcolors.color.e
+    item:
+      customModelID: 0
+      material: YELLOW_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&eYellow Anvil Color'
+      lockedName: '&c&lLocked: &eYellow Anvil Color'
+      lore:
+        - '&7Allows you to use the color code e'
+        - '&7when naming items in an anvil'
+  f:
+    slot: 17
+    code: '&f'
+    permission: anvilcolors.color.f
+    item:
+      customModelID: 0
+      material: WHITE_CONCRETE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&fWhite Anvil Color'
+      lockedName: '&c&lLocked: &fWhite Anvil Color'
+      lore:
+        - '&7Allows you to use the color code f'
+        - '&7when naming items in an anvil'
+  magic:
+    slot: 29
+    code: '&k'
+    permission: anvilcolors.color.k
+    item:
+      customModelID: 0
+      material: BLAZE_POWDER
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7&ko &7Magic Anvil Style &ko'
+      lockedName: '&c&lLocked: &7&ko &7Magic Anvil Style &ko'
+      lore:
+        - '&7Allows you to use the color code k'
+        - '&7when naming items in an anvil'
+  bold:
+    slot: 30
+    code: '&l'
+    permission: anvilcolors.color.l
+    item:
+      customModelID: 0
+      material: IRON_NUGGET
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7&lBold Anvil Style'
+      lockedName: '&c&lLocked: &7&lBold Anvil Style'
+      lore:
+        - '&7Allows you to use the color code l'
+        - '&7when naming items in an anvil'
+  strikethrough:
+    slot: 31
+    code: '&m'
+    permission: anvilcolors.color.m
+    item:
+      customModelID: 0
+      material: OAK_FENCE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7&mStrikethrough Anvil Style'
+      lockedName: '&c&lLocked: &7&mStrikethrough Anvil Style'
+      lore:
+        - '&7Allows you to use the color code m'
+        - '&7when naming items in an anvil'
+  underline:
+    slot: 32
+    code: '&n'
+    permission: anvilcolors.color.n
+    item:
+      customModelID: 0
+      material: STONE_PRESSURE_PLATE
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7&nUnderline Anvil Style'
+      lockedName: '&c&lLocked: &7&nUnderline Anvil Style'
+      lore:
+        - '&7Allows you to use the color code n'
+        - '&7when naming items in an anvil'
+  italic:
+    slot: 33
+    code: '&o'
+    permission: anvilcolors.color.o
+    item:
+      customModelID: 0
+      material: GOLD_NUGGET
+      lockedMaterial: RED_STAINED_GLASS_PANE
+      name: '&7&oItalic Anvil Style'
+      lockedName: '&c&lLocked: &7&oItalic Anvil Style'
+      lore:
+        - '&7Allows you to use the color code o'
+        - '&7when naming items in an anvil'
